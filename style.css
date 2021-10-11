@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450');
 
-/*----Basics----*/
+
+/*-----------------------------------------------Basics---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
@@ -8,7 +11,9 @@ html, body {
   color: rgb(112, 112, 112);
 }
 
-/*-----------------------------------------------------------navigation bar-----------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------Header/navigation bar-----------------------------------------------------------*/
 
 
 .navbar-nav li {
@@ -20,8 +25,13 @@ html, body {
   font-size: 1.3em !important ;
 }
 
+.header-img {
+  height: 80px;
+  }
+
 /*-----------------------------------------------------------HOME-----------------------------------------------------------*/
-/*-----Carousel----*/
+
+/*----------Carousel------------*/
 
 
 .carousel-inner img {
@@ -48,6 +58,7 @@ html, body {
   text-shadow: 1px 1px 15px #000;
   padding-bottom: 1rem;
 }
+.btn-light,
 .btn-primary {
   background-color: #20c996ce;
   border-color: #20c997;
@@ -56,24 +67,21 @@ html, body {
 .btn-success:focus, 
 .btn-success:active,
 .btn-success.active,
+
 .btn-primary:hover {
   background-color:  rgba(231, 80, 105, 0.801);
   border: none;
 }
 
 
-
-
-
-/*----header---*/
-.header-img {
-height: 100px;
+.link-menu {
+  color: #f8f9fa;
 }
 
 
 
 
-/*---Jumbotron-----------*/
+/*------------Jumbotron-----------*/
 
   .lead {
     color: rgb(112, 112, 112);
@@ -101,7 +109,7 @@ padding: 2rem;
 padding: 2rem;
 }
 
-/*--------Panels---------*/
+/*------------------Panels/Cards-----------------*/
 .shadowcard{
   background-color: rgb(231, 80, 105);
   position: relative;
@@ -143,7 +151,81 @@ padding: 2rem;
   border: none;
 }
 
-/*---Footer---*/
+
+/**---------------------------------------------------------MENU-----------------------------------------------------------------*/
+
+.back_image {
+  background-image: url(img/background-pitaya2.jpg);
+  background-repeat: no-repeat;
+}
+.container-fluid-menu {
+  background-color: white;
+  margin-top: 2rem;
+}
+
+/**-----This display if for every pages---*/
+
+.display-4 {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 20px;
+ 
+  text-shadow: 1px 1px 1px ;
+  color: rgb(231, 80, 105);
+}
+
+.justify-content-center {
+  justify-content: center!important;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.menu-content{
+  margin-top: 1rem;
+}
+
+.menu-title {
+font-family: 'Staatliches', cursive;
+letter-spacing: 10px;
+text-align: center;
+color: #20c997;
+text-shadow: 1px 1px 1px ;
+
+margin-top: 1rem;
+}
+
+/**---------------------------------------------------------GALLERY----------------------------------------------------------------*/
+
+.container-fluid-gallery {
+  background-color: white;
+  margin-top: 0,5rem;
+}
+
+
+
+
+/*-------------------------------------------------------INFOS---------------------------------------------------------------------*/
+/*----Our Team----*/
+
+.card-text-1 {
+  color:rgb(112, 112, 112);
+}
+.card-title-1 {
+  color:rgb(112, 112, 112)
+
+}
+
+
+
+
+
+/**---------------------------------------------------------CONTACT----------------------------------------------------------------*/
+
+.mt-5-contact {
+ background-color: rgba(231, 80, 105, 0.699);
+}
+
+
+
+/*----------------------------------------------------------FOOTER--------------------------------------------------------------*/
 
 .footer-img {
   width: 60%;
@@ -160,64 +242,9 @@ footer {
   background-size:cover;
 
 }
-
-/*-------------------------------------------------------INFOS---------------------------------------------------------------------*/
-/*----Our Team----*/
-
-.card-text-1 {
-  color:rgb(112, 112, 112);
-}
-.card-title-1 {
-  color:rgb(112, 112, 112)
-
-}
-
-
-
-/**---------------------------------------------------------MENU-----------------------------------------------------------------*/
-
-.back_image {
-  background-image: url(img/background-pitaya2.jpg);
-  background-repeat: no-repeat;
-}
-.container-fluid-menu {
-  background-color: white;
-  margin-top: 2rem;
-}
-
-.display-4 {
-  color: #000;
-}
-.justify-content-center {
-  justify-content: center!important;
- 
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-.menu-content{
-  margin-top: 1rem;
-}
-
-.menu-title {
-text-align: center;
-padding-top: 10px;
-padding-bottom: 10px;
-margin-top: 1rem;
-}
-
-/**---------------------------------------------------------CONTACT----------------------------------------------------------------*/
-
-.mt-5-contact {
- background-color: rgba(231, 80, 105, 0.699);
-}
-
-/**---------------------------------------------------------GALLERY----------------------------------------------------------------*/
-
 /*---------------------------------------------------------Media Queries ----------------------------------------------------------*/
-@media (max-width: 992px) {
 
-}
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 .carousel-caption {
   top: 30%;
 }
@@ -256,12 +283,71 @@ margin-top: 1rem;
 
 .lead {
   color: rgb(112, 112, 112);
+  
 }
-@media (max-width: 576px) {
+
+.cocktail-title {
+  padding-left: 20px;
+  
+  }
+  
+  .cocktail-ingredient{
+    padding-left: 20px;
+    }
+  
+  .price {
+  padding-left: 20px;
+  }
+
+.display-4 {
+  font-size: 40px;
+}
+
+
+/**---Small sreens----**/
+
+@media only screen and (max-width: 300px) {
+
+.header-img {
+  height: 50px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 200%;
+}
+
+.carousel-caption h3 {
+  font-size: 100%;
+}
+
+.carousel-caption .btn {
+  font-size: 80%;
+  padding: 10px 15px;
+}
+
+.cocktail-title {
+padding-left: 20px;
 
 }
 
-/*---Firefox Bug Fix --*/
+.cocktail-ingredient{
+  padding-left: 20px;
+  }
+
+.price {
+padding-left: 20px;
+}
+
+.carousel-caption h3 {
+padding-bottom: 0;
+
+}
+
+
+
+
+
+/*-----------------------Firefox Bug Fix -------------------------*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;

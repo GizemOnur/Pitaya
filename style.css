@@ -11,18 +11,21 @@ html, body {
   color: rgb(112, 112, 112);
 }
 
-
+.p {
+  text-align: justify;
+}
 
 /*-----------------------------------------------------------Header/navigation bar-----------------------------------------------------------*/
 
 
 .navbar-nav li {
-  padding-right: 20px;
+ 
   font-family: 'Poppins', sans-serif;
   }
 
 .nav-link {
   font-size: 1.3em !important ;
+
 }
 
 .header-img {
@@ -151,7 +154,13 @@ padding: 2rem;
   border: none;
 }
 
+.container_1 
+{
+  background-image: url("img/background-pitaya3.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 
+}
 /**---------------------------------------------------------MENU-----------------------------------------------------------------*/
 
 .back_image {
@@ -213,16 +222,45 @@ margin-top: 1rem;
 
 }
 
+.infos {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 10px;
+  text-align: justify;
+  color: #20c997;
+  text-shadow: 1px 1px 1px;
+  margin-top: 1rem;
+}
 
-
+.card-text-1 {
+  color: white;
+}
+.card-title-1 {
+  color: white;
+}
 
 
 /**---------------------------------------------------------CONTACT----------------------------------------------------------------*/
 
 .mt-5-contact {
- background-color: rgba(231, 80, 105, 0.699);
+ background-color: rgba(243, 69, 98, 0.911);
+ padding: 20px 25px 20px 25px;
+ margin-top: 10px;
+ margin-bottom: 40px;
+ border-radius: 15px;
 }
 
+.form-control {
+  margin-bottom: 30px;
+}
+
+.contact-title {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  color: white;
+}
 
 
 /*----------------------------------------------------------FOOTER--------------------------------------------------------------*/
@@ -235,13 +273,9 @@ footer {
   background-color: #f8f9fa!important;
 }
 
-.container_1 
-{
-  background-image: url("img/background-pitaya3.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
 
-}
+
+
 /*---------------------------------------------------------Media Queries ----------------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {

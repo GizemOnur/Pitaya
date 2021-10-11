@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+	  
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top  mb-2">
+    <div class="container-fluid">
+
+        <a href="#" class="navbar-brand mb-0 me-5 ml-5 h1 text-secondary align-self-start">
+            <img class="header-img" src="img/logo.png" alt="Pitaya Logo"
+                class=" d-inline-block align-self-start">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-lg-auto">
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link text-secondary " href="Homepage.html">Home</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="Pictures.html">Gallery</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="Infos.html">Infos</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!----HEADER CONTACT------->
+<div class="container-fluid padding">
+    <div class="text-center">
+        <div class="col-12">
+            <h1 class="display-4">CONTACT</h1>
+        </div>
+        <hr>
+        </div>
+    </div>
+    <div class="conatainer-fluid padding">
+        <div class="text center">
+    <p> Our story beggins with our team. Lorem Dolur adipisicing elit. Aperiam, quod? Autem eveniet sunt dolorem, dolore, rem quo dolor obcaecati iure nemo dignissimos sapiente atque maxime illum perferendis nostrum molestiae inventore.</p>
+    </div>
+    </div>
+<!--Form-->
+<div class="container mt-5-contact">
+    <h1>Contact Us</h1>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="firstName" class="form-label" > First Name </label>
+            <input type="text" class="form-control" id="firstName" required> 
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label" > Last Name </label>
+            <input type="text" class="form-control" id="lastName" required>   
+        </div>
+        <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="emailInfo" required>
+        </div>
+        <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+32 4XX XX XX XX.">
+        </div>
+        <div class="col-md-12">
+            <label for="comments" class="form-label"> Subject of the message</label>
+            <textarea class="form-control" id="Subject" rows="3" required></textarea>
+        </div>
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary"> Submit</button>
+        </div>
+    </form>
+</div>
+
+
+
+     
+
+
+
+
+
+
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img class="footer-img" src="img/logo.png">
+            <hr class="light">
+            <p>02.86.677.666</p>
+            <p>Pitaya@gmailcom</p>
+            <p>56 Rue du Meilleur Cocktail</p>
+            <p>1000, Brussels, Belgium.</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <p>Our hours</p>
+            <hr class="light">
+            <p>Monday-Tuesday: 18:00 - 00:00</p>
+            <p>Friday-Saturday: 18:00 - 02:00</p>
+            <p>Sunday: Closed</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <p>Legal information</p>
+            <hr class="light">
+            <p> Mention legal </p>
+            <p> Some information </p>
+            <p>Some information </p>
+        </div>
+        <div class="col-12">
+            <hr class="light">
+            <h5>&copy; Pitaya.com</h5>
+        </div>
+    
+    </div>
+    </div>	
+    </footer>
+    <!--  Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    </body>
+    </html>
+    

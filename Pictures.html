@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+	  
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top  mb-2">
+    <div class="container-fluid">
+
+        <a href="#" class="navbar-brand mb-0 me-5 ml-5 h1 text-secondary align-self-start">
+            <img class="header-img" src="img/logo.png" alt="Pitaya Logo"
+                class=" d-inline-block align-self-start">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-lg-auto">
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link text-secondary " href="Homepage.html">Home</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="Pictures.html">Gallery</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="Infos.html">Infos</a>
+                </li>
+                <li class="nav-item p-2 link-menu ">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid-menu padding">
+    <div class="text-center">
+        <div class="col-12">
+            <h1 class="display-4">GALLERY</h1>
+        </div>
+        <hr>
+        </div>
+    </div>
+
+
+<!--- Carousel -->
+<style>
+
+    .carousel-item {
+        height: 32rem;
+        background: rgb(209, 208, 208);
+        color: white;
+        position: relative;
+		background-position: center;
+		background-size: cover;
+	
+    }
+    .container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+    }
+</style>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel"data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel"data-slide-to="4"></li>
+		<li data-target="#myCarousel" data-slide-to="5"></li>
+		<li data-target="#myCarousel" data-slide-to="6"></li>
+		<li data-target="#myCarousel"data-slide-to="7"></li>
+		<li data-target="#myCarousel"data-slide-to="8"></li>
+	</ol>
+
+<div class="carousel-inner">
+
+   <div class="carousel-item active" style="background-image: url(img/cocktail1.jpg);">
+    <div class="container">   
+    </div>
+</div>
+
+ <div class="carousel-item" style="background-image:url(img/cocktail.jpg);">
+    <div class="container">
+    </div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/lecocktail.jpg);">
+	<div class="container">	
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/bartender1.jpg);">
+	<div class="container">
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/bartender.jpg);">
+	<div class="container">
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/background.png);">
+	<div class="container">
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/people.jpeg);">
+	<div class="container">
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/bar.jpg);">
+	<div class="container">
+	</div>
+</div>
+
+<div class="carousel-item" style="background-image: url(img/bar2.jpg);">
+	<div class="container">
+	</div>
+</div>
+
+</div>
+
+<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+	<span class="sr-only">Previous</span>
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+	<span class="sr-only">Previous</span>
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+</div>
+
+<!---2.Jumbotron-->
+
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+	
+			<p class="lead"> Pitaya Lounge & Bar welcomes you to its website. Our establishment is located in the heart of Brussels, at Rue du Meilleur Cocktail de la Ville, 56. For more information on our menu, click on the "See Menu" tab.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="Menu.html"><button type="button" class="btn btn-secondary btn-lg">See Menu</button></a>
+		</div>
+	</div>
+	</div>
+
+
+
+
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img class="footer-img" src="img/logo.png">
+		<hr class="light">
+		<p>02.86.677.666</p>
+		<p>Pitaya@gmailcom</p>
+		<p>56 Rue du Meilleur Cocktail</p>
+		<p>1000, Brussels, Belgium.</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<p>Our hours</p>
+		<hr class="light">
+		<p>Monday-Tuesday: 18:00 - 00:00</p>
+		<p>Friday-Saturday: 18:00 - 02:00</p>
+		<p>Sunday: Closed</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<p>Legal information</p>
+		<hr class="light">
+		<p> Mention legal </p>
+		<p> Some information </p>
+		<p>Some information </p>
+	</div>
+	<div class="col-12">
+		<hr class="light">
+		<h5>&copy; Pitaya.com</h5>
+	</div>
+
+</div>
+</div>	
+</footer>
+<!--  Popper and Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

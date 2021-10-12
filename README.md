@@ -12,7 +12,7 @@ Pitaya Lounge & Bar
 
 ### Url du site
 
-[Site disponible via ce lien](https://gizemonur.github.io/restaurant/homepage.html)
+[Site disponible via ce lien](https://gizemonur.github.io/restaurant-css-framework/index.html)
 
 
 ##### 5 pages à réaliser:

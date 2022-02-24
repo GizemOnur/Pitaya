@@ -20,14 +20,13 @@ html, body {
 
 .navbar-nav li {
   font-family: 'Poppins', sans-serif;
+
   }
 
 
 .nav-link {
   font-size: 1.3em !important ;
   text-align: right;
-
-
 }
 
 .header-img {
